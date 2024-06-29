@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.counter-container{
+    width: 50%;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+button{
+    background-color: lightseagreen;
+    padding: 0.7em 1.5em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 3px;
+}
+
+.control-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    justify-content: center;
+    margin-block: 1rem;
+}
+
+.input-control{
+  margin-block: 1rem;
+}
+
+label{
+    font-size: 1.3rem;
+}
+
+input{
+    width: 80px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+h1{
+    font-size: 2.6rem;
+}
